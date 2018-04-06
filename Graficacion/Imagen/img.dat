@@ -1,0 +1,25 @@
+JPanel 500 600 0 0 0
+Triangulo 100 350 100 450 300 400 255 0 0
+Cuadrado 120 70 70 70 164 164 164
+Circulo 300 100 100 100 255 255 0
+
+#JPanel X Y R G B
+#Triangulo X1 Y1 X2 Y2 X3 Y3 R G B
+#Cuadrado X Y Ancho Largo R G B
+#Circulo X Y Ancho Largo R G B
+
+Tabla de colores:
+
+Nombre      Red (rojo) 	Green (verde) 	Blue (azul)
+white          255           255            255
+lightGray      192           192            192
+gray           128           128            128
+black            0             0              0
+red            255             0              0
+pink           255           175            175
+orange         255           200              0
+yellow         255           255              0
+green            0           255              0
+magenta        255             0            255
+cyan             0           255            255
+blue             0             0            255
