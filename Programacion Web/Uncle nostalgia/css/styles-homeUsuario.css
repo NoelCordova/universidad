@@ -1,0 +1,21 @@
+.navbar {
+	/*Eliminar el espacio entre nav y otro objeto*/
+	margin: 0;
+	border-radius: 0;
+}
+
+.jumbotron {
+	margin-bottom: 10px;
+}
+
+.main {
+	margin-bottom: 10px;
+}
+
+.favoritos {
+	border-radius: 4px;
+}
+
+footer {
+	background: #000000;
+}

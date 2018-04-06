@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Example</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+	<header>
+		<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion-fm">
+						<span class="sr-only">Desplegar / Ocultar Menú</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="#" class="navbar-brand">Example</a>
+				</div>
+
+				<!-- Inicia menú -->
+				<div class="collapse navbar-collapse" id="navegacion-fm">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#">Inicio</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Categorias <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="#">1</a></li>
+								<li class="divider"></li>
+								<li><a href="#">2</a></li>
+								<li class="divider"></li>
+								<li><a href="#">3</a></li>
+								<li class="divider"></li>
+							</ul>
+						</li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Contacto</a></li>
+					</ul>
+					<form action="" class="navbar-form navbar-right" role="search">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="buscar">
+						</div>
+						<button type="submit" class="btn btn-primary">
+							<span class="glyphicon glyphicon-search"></span>
+						</button>
+					</form>
+				</div>
+
+			</div>
+		</nav>
+	</header>
+
+	<!-- Jumbotron -->
+	<section class="jumbotron jumbotron-header">
+		<div class="container">
+			<h1 class="header-title">Example!</h1>
+			<p>Página de práctica</p>
+		</div>
+	</section>
+
+	<div class="container">
+		<div class="row">	
+			<article class="col-xs-12 col-sm-6 col-md-8">
+				<h3>Comentario Principal</h3>
+				<p class="text-justify">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, saepe doloribus incidunt ex error a. Natus laudantium, suscipit, sit dolorum adipisci, accusantium veniam voluptatibus modi eveniet quo eaque ipsum quaerat. ipsum dolor sit amet, consectetur adipisicing elit. Delectus illum maxime dolores est quas accusantium reprehenderit mollitia incidunt aspernatur, quod sapiente nesciunt atque. Assumenda optio architecto ipsum eveniet, iure animi. ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam nobis laboriosam temporibus, esse eius nisi! Ipsum quos dolorum, eaque, sapiente qui deserunt consequuntur repellendus quisquam fuga eveniet officia necessitatibus iusto.
+				</p>
+				<p>
+					Autem dolorum dolores magni vel quae, aperiam totam modi. Fugit cupiditate dolorum corrupti et iusto, esse commodi quibusdam iste quos, recusandae exercitationem fugiat, possimus eos sit doloribus cumque voluptas sunt.
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium praesentium, rerum illum modi odit earum cumque soluta ex, culpa nesciunt est repellendus velit neque officia beatae. Suscipit sed harum quisquam!
+				</p>
+				<p>
+					´Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, numquam omnis, consequuntur fugit enim, distinctio quod hic ipsa optio dolores voluptatibus placeat sint atque! Id repudiandae, fuga quo iste commodi.
+				</p>
+			</article>
+
+			<aside class="col-xs-12 col-sm-6 col-md-4">
+				<h4 class="page-header text-center">Videos</h4>
+				<div class="list-group">
+					<a href="#ventana1" class="btn btn-primary btn-lg btn-block" data-toggle="modal">Boton #1</a>
+					<a href="#ventana2" class="btn btn-primary btn-lg btn-block" data-toggle="modal">Boton #2</a>
+					<a href="#ventana3" class="btn btn-primary btn-lg btn-block" data-toggle="modal">Boton #3</a>
+
+					<div class="modal fade" id="ventana1">
+        				<div class="modal-dialog">
+          					<div class="modal-content">
+
+          						<!-- header ventana -->
+           						<div class="modal-header">
+              						<button type="button" class="close" data-dismiss="modal" area-hidden="true">&times;</button>
+              						<h4 class="modal-title">Encabezado de Ventana</h4>
+            					</div>
+
+            					<!-- Contenido ventana -->
+            					<div class="modal-body">
+              						<div class="embed-responsive embed-responsive-16by9">
+                						<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/J2nzAU8V9WM" frameborder="0" allowfullscreen></iframe>
+              						</div>
+            					</div>
+            
+            					<!-- Fotter ventana -->
+            					<!-- <div class="modal-footer">
+              					<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+              					<button type="button" class="btn btn-primary">Guardar Cambios</button>
+            					</div> -->
+
+          					</div>
+        				</div>
+      				</div>
+
+					<div class="modal fade" id="ventana2">
+        				<div class="modal-dialog">
+          					<div class="modal-content">
+
+            					<!-- header ventana -->
+            					<div class="modal-header">
+              						<button type="button" class="close" data-dismiss="modal" area-hidden="true">&times;</button>
+              						<h4 class="modal-title">Encabezado de Ventana</h4>
+            					</div>
+			
+								<!-- Contenido ventana -->
+            					<div class="modal-body">
+              						<div class="embed-responsive embed-responsive-16by9">
+                						<iframe width="854" height="480" src="https://www.youtube.com/embed/MQFHfFyssH4?list=PLhSj3UTs2_yWTKvu1Aq3xUhzIJNBZ3MFW&amp;ecver=1" frameborder="0" allowfullscreen></iframe>
+              						</div>
+            					</div>
+
+          					</div>
+        				</div>
+      				</div>
+				</div>
+			</aside>
+		</div>
+	</div>
+	
+	<br>
+	<footer>
+		<div class="container">
+			<div class="col-xs-12">
+				<h5 class="text-center">&#60;white_noise/&#62;</h5>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

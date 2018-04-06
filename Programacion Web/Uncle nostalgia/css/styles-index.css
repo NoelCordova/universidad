@@ -1,0 +1,52 @@
+.navbar {
+	/*Eliminar el espacio entre nav y otro objeto*/
+	margin: 0;
+}
+
+.jumbotron {
+	background: #444444;
+	color: #ffffff;
+	text-align: center;
+	margin: 0;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+p {
+	text-align: justify;
+}
+
+article.main {
+	background: #aaad0f;
+}
+
+aside.main {
+	background: #999999;
+}
+
+.disco1 {
+	border: 1px;
+	border-style: solid;
+	text-align: center;
+	padding: 12px;
+	/*background: #aaa023;*/
+}
+
+.disco2 {
+	border: 1px;
+	border-style: solid;
+	text-align: center;
+	padding: 12px;
+	/*background: #00032a;*/
+}
+
+.disco3 {
+	border: 1px;
+	border-style: solid;
+	text-align: center;
+	padding: 12px;
+	/*background: #fff34a;*/
+}
+
+footer {
+	background: #000000;
+}

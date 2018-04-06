@@ -1,0 +1,42 @@
+body {
+	background: #ffffff;
+}
+
+/* HEADER */
+.navbar {
+	margin-bottom: 0;
+}
+
+.jumbotron-header {
+	background: #669900;
+	color: #111;
+	padding: 20 0;
+}
+
+.jumbotron-header .header-title {
+	font-size: 80px;
+}
+
+article {
+	background: #cc6600;
+	color: #fff;
+}
+
+aside {
+	background: #df3fad;
+}
+
+footer{
+	background: #000000;
+	color: #000;
+}
+
+/*.footer{
+	background: #111;
+	color: #fff;
+	width: 100%;
+	border-top: 2px solid #fff;
+	position: absolute;
+	bottom: 0;
+
+}*/
