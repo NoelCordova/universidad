@@ -1,0 +1,4 @@
+int a = 5 : b = 9;
+
+res = (a * b);
+esc: resultado + res;

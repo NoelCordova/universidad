@@ -1,0 +1,18 @@
++ El programa esta desarrollado para windows o linux, pero se creó en linux.
++ El archivo de prueba siempre debe llevar un espacio en blanco al final debido a las
+etiquetas codificación de los sistemas operativos
++ El nombre del archivo solicitado debe ser con todo y su extension: prueba.txt
+						               archivo.txt
+
+Linux:
+    Desde terminal entrar en el directorio correspondiente y ejecutar el comando para 
+    compilarlo:
+
+	g++ main.cpp -o exe
+	
+    despues ejecutarlo:
+
+	./exe
+
+Windows:
+    Ejecutar con cualquier IDE, no debe dar problema
