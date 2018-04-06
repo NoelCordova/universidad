@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Vista General</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/styles-index.css">
+</head>
+<body>
+	<header>
+        <nav class="navbar navbar-inverse navbar-static-top" role="navigation" style="margin-bottom: 0px;">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion">
+                        <span class="sr-only">Desplegar / Ocultar Menú</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="../index.html" class="navbar-brand">Sistema de Votación</a>
+                </div>
+                <div class="collapse navbar-collapse" id="navegacion">
+                    <ul class="nav navbar-nav">
+                        <li><a href="GBarrasView.html" target="_blank">Grafica de Barras</a></li>
+                        <li><a href="GPastelView.html" target="_blank">Grafica de Pastel</a></li>
+                        <li><a href="GeneralView.html" target="_blank">Vista General</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+	<div class="container">
+		<p id="h"></p>
+		<table class="table table-bordered" style="margin-top: 50px;">
+			<thead style="background: #f2f2f2; font-style: bold; text-align: center;">
+				<tr>
+					<th>PARTIDO</th>
+					<th>VOTOS</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>PRI</td>
+					<td id="votosPri"></td>
+				</tr>
+				<tr>
+					<td>PAN</td>
+					<td id="votosPan"></td>
+				</tr>
+				<tr>
+					<td>MORENA</td>
+					<td id="votosMorena"></td>
+				</tr>
+				<tr>
+					<td>PRD</td>
+					<td id="votosPrd"></td>
+				</tr>
+				<tr>
+					<td>NULO</td>
+					<td id="votosNulos"></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<script type="text/javascript" src="../App.Controlador/GeneralControlador.js"></script>
+	<script>setTimeout("document.location=document.location", 5000);</script>
+</body>
+</html>

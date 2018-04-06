@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Votos</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<header>
+        <nav class="navbar navbar-inverse navbar-static-top" role="navigation" style="margin-bottom: 0px;">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion">
+                        <span class="sr-only">Desplegar / Ocultar Menú</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="../index.html" class="navbar-brand">Sistema de Votación</a>
+                </div>
+                <div class="collapse navbar-collapse" id="navegacion">
+                    <ul class="nav navbar-nav">
+                        <li><a href="GBarrasView.html" target="_blank">Grafica de Barras</a></li>
+                        <li><a href="GPastelView.html" target="_blank">Grafica de Pastel</a></li>
+                        <li><a href="GeneralView.html" target="_blank">Vista General</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+	<div class="container" style="padding: 50px;">
+		<p id="parrafo"></p>
+		<div class="row">
+			<div class="col-md-12" style="padding-bottom: 50px;">
+				<div class="panel-heading text-center">Anular Voto. Sí, también es valido.</div>
+				<button class="btn btn-default btn-block" id="noVoto" onclick="votoNulo()">NO VOTES!</button>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6 col-md-3" style="padding: 10px;">
+				<img src="../res/img/pri.jpeg" width="100%">
+				<div class="panel-heading text-center">Partido Revolucionario Institucional</div>
+				<button class="btn btn-default btn-block" id="votoPri" onclick="votoPri()">VOTA!</button>
+			</div>
+			<div class="col-sm-6 col-md-3" style="padding: 10px;">
+				<img src="../res/img/pan.png" width="100%">
+				<div class="panel-heading text-center">Partido Acción Nacional</div>
+				<button class="btn btn-default btn-block" id="votoPan" onclick="votoPan()">VOTA!</button>
+			</div>
+			<div class="col-sm-6 col-md-3" style="padding: 10px;">
+				<img src="../res/img/morena.jpg" width="100%">
+				<div class="panel-heading text-center">MORENA</div>
+				<button class="btn btn-default btn-block" id="votoMorena" onclick="votoMorena()">VOTA!</button>
+			</div>
+			<div class="col-sm-6 col-md-3" style="padding: 10px;">
+				<img src="../res/img/prd.jpg" width="100%">
+				<div class="panel-heading text-center">Partido Revolución Democrática</div>
+				<button class="btn btn-default btn-block" id="votoPrd" onclick="votoPrd()">VOTA!</button>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="../App.Controlador/IndexControlador.js"></script>
+</body>
+</html>

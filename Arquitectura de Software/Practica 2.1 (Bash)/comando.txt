@@ -1,0 +1,27 @@
+Se ordena alfabeticamente
+./separador.sh | sort -k 2
+
+
+
+cat prueba.txt | cut -d " " -f 2 | sort -k 2
+
+
+
+
+
+agregar un alias permamente a la terminal: nano ~/.bashrc
+
+ej. alias lector='cat'
+
+
+alias contador='sed '\''s/\s/\n/g'\'' | nl'
+
+
+
+# Practica de tuberias
+alias lector='cat'
+alias contador='sed '\''s/\s/\n/g'\'' | nl'
+alias alfabetizador='sort -k 2'
+alias contador-A='sed '\''s/\s/\n/g'\'' | nl > contador.txt'
+alias alfabetizador-A='sort -k 2 > alfabetizador.txt'
+
