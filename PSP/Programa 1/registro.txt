@@ -1,0 +1,4 @@
+aeromexico aer123 guadalajara chicago 06/03/17 9:40 10:00 1500 750 30 120 06/03/17
+aeromexico aer623 guadalajara cdmx 06/03/17 12:00 4:00 700 350 30 120 06/03/17
+volaris vol423 monterrey paris 07/03/17 05:00 15:00 10000 6300 30 120 07/03/17
+volaris vol735 guadalajara roma 08/03/17 10:00 17:00 15000 8900 30 120 09/03/17
