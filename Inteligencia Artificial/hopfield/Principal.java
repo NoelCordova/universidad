@@ -150,7 +150,7 @@ class Principal {
         
         for (j = 0; j < N; j++) {
             if ((j % col) == 0) System.out.println("");
-            System.out.print(S[0][j] + " ");
+            System.out.print(S[0][j] + "\t");
         }
         
         System.out.println(" ");
